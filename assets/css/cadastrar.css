@@ -1,0 +1,43 @@
+h1{
+    text-align:center;
+}
+
+.main :where(.form, .input-search) {
+    display: grid;
+    gap: 7px;
+    margin:0 150px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.main{
+    padding-top: 200px;
+}
+
+.input-search :where(input, textarea){
+    padding: 20px;
+}
+
+input[type="submit"]:hover{
+    box-shadow: 10px 10px 10px #F9BEC7;
+    transform: scale(0.99);
+}
+
+input[type="submit"]{
+    background-color: rgb(0, 94, 25);
+    color: white;
+    margin-top: 40px;
+}
+
+input{
+    background-color: rgb(186, 186, 186);
+    border: 0;
+    border-radius: 15px;
+}
+
+textarea{
+    border: 0;
+    border-radius: 15px;
+    background-color: rgb(186, 186, 186);
+}

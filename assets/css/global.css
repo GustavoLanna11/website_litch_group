@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;400;500;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+body, html{
+    background: #FAE0E4;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+    #quero{
+        padding-top: 10%;
+    }
+}
+
+#wrapper{
+    background: #f2d5da;
+}
+
+/*Navbar*/
+header{
+    background-color:#b544e6;
+    box-shadow: 3px 3px 3px #F9BEC7;
+}
+
+#logo_nav{
+    height:50px;
+    margin-right: 20px;
+}
+
+#nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40rem
+}
+
+#item{
+    font-size: 25px;
+    color: white;
+}
+
+#item:hover{
+    transform: scale(0.95);
+    color:#d38f99;
+}
+
+
+/*Navbar ------------------------------------------------------*/
+
+/*Inicio ------------------------------------------------------*/
+
+
+
+#box1{
+    background-color:#973AA8;
+    width:78%;
+    box-shadow: 10px 10px 10px #00000073;   
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+   }
+
+#txt_litch{
+    color: white;
+    font-size:50px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#txt_inicio{
+    color: rgb(56, 56, 56);
+    font-size:25px;
+}
+
+#imglichia{
+    width:80%;
+    height:80%;
+}
+
+#imglichia:hover{
+    transform: scale(0.97);
+}
+
+#pag{padding-bottom: 150px;
+}
+#inicio{
+    padding-top: 14%;
+    
+}
+
+#txtb{
+    font-size: 25px;
+    color: white;
+}
+#botao{
+    background-color:#f57bca;
+    box-shadow: 7px 7px 7px #00000073;
+    width: 200px;
+}
+
+#botao:hover{
+    transform: scale(0.95);
+    background-color: #d38f99;
+    box-shadow: 7px 7px 7px #400342;
+}
+#linha{
+    background-color: #973AA8;
+    width: 50%;
+    height:4px;
+
+}
+/*Inicio ------------------------------------------------------*/
+
+
+/*Sobre ------------------------------------------------------*/
+
+#sobre{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#nos{
+    background-color: #973AA8;
+    width:50%;
+    border-radius: 10%;
+    box-shadow: 12px 12px 12px #F9BEC7;
+}
+
+#box2{
+    background-color: #C05299;
+    box-shadow: 5px 5px 5px #F9BEC7;
+}
+
+#txt_sobre{
+    color: white;
+    font-size: 25px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-inline-start: 3%;
+    padding-inline-end: 3%;
+}
+
+#txt_nos{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+
+#imglitch:hover{
+    transform: scale(0.97);
+}
+
+#imglitch2{
+    height: 250px;
+}
+
+h5{
+    font-size: 100px;
+}
+/*Sobre ------------------------------------------------------*/
+
+
+/*CRIAÇÃO ------------------------------------------------------*/
+
+#criacao{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#box3{
+    background-color: #C05299;
+    box-shadow: 5px 5px 5px #F9BEC7;
+    width: 80%;
+}
+
+#imgduvida:hover{
+    transform: scale(0.97);
+}
+
+#criacao2{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+
+/*CRIAÇÃO ------------------------------------------------------*/
+
+/*Integrantes ------------------------------------------------------*/
+
+#integrantes{
+    
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
+
+#integrantesbox{
+    background-color: #973AA8;
+    width:50%;
+    border-radius: 10%;
+    box-shadow: 8px 8px 8px #160c0d70;
+}
+
+
+#linha2{
+    background-color: #973AA8;
+    width: 50%;
+    height:4px;
+}
+
+#int{
+    background-color: #973AA8;
+    width:50%;
+    border-radius: 10%;
+    box-shadow: 12px 12px 12px #160c0d70;
+}
+#card{
+    background-color: #973AA8;
+    box-shadow: 12px 12px 12px #160c0d70;
+}
+
+#card:hover{
+    background-color: #C05299;
+    transform: scale(0.99);
+    box-shadow: 12px 12px 12px #74305c;
+    
+}
+#imgcard{
+    border-radius: 60%;
+    height:60%;
+    width:70%
+}
+
+/*Integrantes ------------------------------------------------------*/
+
+
+#tp{
+    color: white;
+}
+
+#c{
+    padding-bottom: 100px;
+}
+
+#title{
+    color: white;
+    font-size: 25px;
+}
+
+#text{
+    color: white;
+    font-size: 18px;
+}
+
+
+
+#litch{
+    background-color:#612577;
+}
+
+#comosurgiu{
+    background-color:#a86ebd;
+
+}
+
+#nephelium{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+#projetos{
+    padding-top: 100px;
+    
+}
+
+#imgprojetos{
+    width:65%;
+    height:65%;
+}
+
+#imgnephelium{
+    width:100%;
+    height:100%;
+}
+
+
+/*Footer*/
+#imgfooter{
+    height: 70px;
+}
+
+
+/*BLOG --------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container-post{
+    background-color: #ce87d1;
+}
+
+#container-blog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog{
+    font-size: 30px;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+/*BLOG --------------------------------------------------*/
+
+
+ /*Itens do carrossel*/
+
+ 
+
+ 
+#titulo{
+    font-size: 30px;
+}
+
+#txt_titulo{
+    font-size: 15px;
+}
+

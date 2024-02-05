@@ -1,0 +1,37 @@
+.container-post{
+    padding: 50px 250px;
+}
+
+.post{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 50px 0;
+    padding: 0 25px;
+    transition: .5s;
+}
+
+.post:hover{
+    box-shadow: 10px 10px 10px #F9BEC7;
+    transform: scale(0.99);
+}
+
+.top-post{
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.content-post h3{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.top-poost, 
+.content-post p {
+    padding: 20px 0;
+}
+
+.content-post p {
+    font-size: 18px;
+}
